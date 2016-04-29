@@ -9,7 +9,8 @@
                 [ring/ring-json "0.4.0"]
                 [cljs-http "0.1.40"]
                 [org.clojure/core.async "0.2.374"]
-                [enfocus "2.1.1"]]
+                [enfocus "2.1.1"]
+                 [ring-cors "0.1.7"]]
   :plugins [[lein-ring "0.9.7"]
             [lein-cljsbuild "1.1.3"]]
             :cljsbuild  {
