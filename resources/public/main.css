@@ -4,13 +4,26 @@
 
 html,
 body {
-    background-color: #B0E2FF;
+
     height: 100%;
-
 }
 
-div {
-background: 	#5C4033;
-color: white;
-margin: 0 auto;
-}
+  #rockridge {
+    background: 	#3B98F5;
+    color: white;
+     margin: 1em 2em 2em 2em;
+    padding: 1em 2em 2em 2em;
+    border-style: groove;
+    border-width: 10px;
+     border-color: #F53BF5;
+    }
+
+    #ashby {
+    background: 	#3B98F5;
+    color: white;
+    margin: 0 2em 2em 2em;
+    padding: 1em 2em 2em 2em;
+    border-style: groove;
+    border-width: 10px;
+     border-color: #F53BF5;
+    }
