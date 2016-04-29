@@ -7,8 +7,13 @@
             [enfocus.events :as ev]
             [enfocus.effects :as ee]))
 
+
+
+
+
 (defn ^:export init []                                      ;;export makes it so JS can call this function globally
-       (go (let [rock-response (<! (http/get "http://bart.crudworks.org/api/departures/ROCK"
+       (go
+         (let [rock-response (<! (http/get "http://bart.crudworks.org/api/departures/ROCK"
                                              {:with-credentials? false}))
                  ashb-response (<! (http/get "http://bart.crudworks.org/api/departures/ASHB"
                                              {:with-credentials? false}))
