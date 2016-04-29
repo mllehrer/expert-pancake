@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #B0E2FF;
+    height: 100%;
+
+}
+
+div {
+background: 	#5C4033;
+color: white;
+margin: 0 auto;
+}
