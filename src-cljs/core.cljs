@@ -1,4 +1,4 @@
-(ns train-picker.core
+(ns expert-pancake.core
   (:require-macros [cljs.core.async.macros :refer [go]])
   (:require [clojure.browser.repl :as repl]
             [cljs-http.client :as http]

@@ -1,4 +1,4 @@
-(defproject train-picker "0.1.0-SNAPSHOT"
+(defproject expert-pancake "0.1.0-SNAPSHOT"
   :description "Just tells me which station to go to."
   :url "http://example.com/FIXME"
   :min-lein-version "2.0.0"
@@ -23,7 +23,7 @@
                                               }
                                    }]
                          }
-  :ring {:handler train-picker.handler/app}
+  :ring {:handler expert-pancake.handler/app}
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
                         [ring/ring-mock "0.3.0"]]}})
